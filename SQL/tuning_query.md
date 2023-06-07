@@ -1,6 +1,6 @@
 # 쿼리 튜닝
 
-🖤 DESC
+### 🖤 DESC
  - SELECT문 앞에 DESC 예약어를 붙여 해당 쿼리 실행 계획 분석
  - select_type / table / partitions / possible_keys / key / key_len / ref / rows / filtered / extra
  - select_type : primary / derived 로 나뉘어지며, delrived의 경우 서브 쿼리나 UNION 등을 통해 생성한 임시 테이블을 의미함(임시 테이블의 경우, 인덱스가 없으므로 성능 저하 주의)
