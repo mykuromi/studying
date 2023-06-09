@@ -24,3 +24,5 @@ export default page2 = () => {
   const { key } = state; // value
 };
 ```
+
+Ref) https://reactrouter.com/en/main/hooks/use-navigate
