@@ -13,7 +13,7 @@ f.then(alert);
 
 ### 🖤 await
 
-- wait until promise setteles
+- wait until promise settles
 - return : its result
 
 ```javascript
