@@ -13,8 +13,9 @@ f.then(alert);
 
 ### 🖤 await
 
-- wait until promise settles
+- suspends the function execution until the promise settles and then resumes it with the promise result (JavaScript engine can do other jobs in the meantime: execute other scripts, handle events, etc.)
 - return : its result
+- can’t use in regular functions
 
 ```javascript
 async function f() {
@@ -22,8 +23,16 @@ async function f() {
     setTimeout(() => resolve("promise done"), 1000);
   });
   let result = await promise; // wait until the promise resolves
-  alert(result); // "promise done"
+  alert(result); // "promise done" in 1 sec
 }
+```
+
+### 🖤 examples
+
+```javascript
+let response = await fetch('/article/promise-chaining/user.json');
+let user = await response.json();
+console.log(user);
 ```
 
 Ref) https://javascript.info/async-await
