@@ -1,4 +1,4 @@
-# asynchronous communication
+# Asynchronous communication
 
 ### 🖤 async
 
@@ -27,6 +27,10 @@ async function f() {
 }
 ```
 
+### 🖤 promise
+- the eventual completion (or failure) of an asynchronous operation and its resulting value
+- states : pending(initial state) / fulfilled / rejected
+
 ### 🖤 examples
 
 ```javascript
@@ -35,4 +39,5 @@ let user = await response.json();
 console.log(user);
 ```
 
-Ref) https://javascript.info/async-await
+Ref) https://javascript.info/async-await /
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise 
