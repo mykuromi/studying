@@ -1,4 +1,4 @@
-# reduce
+# Reduce
 
 ### 🖤 arr.reduce(callback[, initialValue])
 
@@ -13,7 +13,7 @@
 
 ### initialValue (optional)
 - callback의 최초 호출에서 첫 번째 인수에 제공하는 값
-- 초기값을 제공하지 않으면 배열의 첫 번째 요소를 사용
+- 초기값을 제공하지 않으면 배열의 첫 번째 요소를 사용, 제공하는 경우 두 번째 호출이 배열의 첫 번째 요소가 됨
 - 빈 배열에서 초기값 없이 reduce() 호출 시 TypeError 발생
 
 Ref) https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
